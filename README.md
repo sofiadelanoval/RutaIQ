@@ -70,7 +70,7 @@ src/
 - Ana Fernanda Gómez Lamadrid
 - José Ángel Alvarado Gonzalez
 - Karla Diaz
-- Lian Aguirre
+- Lian Erick Aguirre Sierra
 - Sofia Ruvalcaba de la Noval
 
 ---
