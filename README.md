@@ -40,8 +40,6 @@ npm install
 ionic serve
 ```
 
-The application will be available at `http://localhost:8100/`.
-
 ---
 
 ## 📁 Project Structure
@@ -50,9 +48,21 @@ The application will be available at `http://localhost:8100/`.
 src/
  ├── app/               # Angular/Ionic app modules
  ├── assets/            # Static files and icons
- ├── environments/      # Environment configs
- └── theme/             # SCSS styling
+ ├── base/              # Core base configurations or constants
+ ├── data/              # Static datasets or mocks
+ ├── domain/            # Business logic or data models
+ ├── environments/      # Environment configs (dev/prod)
+ ├── helpers/           # Utility functions
+ ├── theme/             # Global SCSS styles and variables
+ ├── types/             # Custom TypeScript types
+ ├── global.scss        # Global styles
+ ├── index.html         # Entry HTML file
+ ├── main.ts            # Main app bootstrap
+ ├── polyfills.ts       # Polyfills for browser support
+ ├── test.ts            # Test configuration
+ └── zone-flags.ts      # Zone.js flags
 ```
+
 ---
 
 ## 🤝 Contributors
@@ -62,7 +72,7 @@ src/
 - Karla Diaz
 - Lian Aguirre
 - Sofia Ruvalcaba de la Noval
-  
+
 ---
 
 This project is a prototype and a starting point for future smart mobility applications in Mexican cities.
